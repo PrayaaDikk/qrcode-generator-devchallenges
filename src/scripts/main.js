@@ -5,5 +5,5 @@ let url = "";
 
 btn.addEventListener("click", () => {
 	url = linkInput.value;
-	window.location.href = `/src/pages/qr-code.html?url=${url}`;
+	window.location.href = `/src/pages/generate.html?url=${url}`;
 });
